@@ -1,7 +1,7 @@
 import React from 'react';
 import HeadRoom from 'react-headroom';
 import Scroll from 'react-scroll';
-import mojs from 'mo-js'
+import mojs from 'mo-js';
 import {
   Navigation,
   NavigationList,
