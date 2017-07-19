@@ -49,12 +49,12 @@ export const HeroNav = styled.div`
 export const Header = styled.h1`
   position: absolute;
   max-width: 550px;
-  height: 70px;
+  height: 50vh;
   color: rgba(255,255,255, 0.8);
   padding: 0;
   left: 0;
   right: 0;
-  top: 0;
+  top: 25%;
   bottom: 0;
   margin: auto;
   font-size: 30px;
