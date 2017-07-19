@@ -1,8 +1,12 @@
 import styled from 'styled-components';
+import { phone } from '../theme/sizes';
 
 export const Navigation = styled.nav`
   width: 200px;
   height: 200px;
+  @media (max-width: ${phone}px){
+    height: 150px;
+  }
 `;
 
 
@@ -27,6 +31,10 @@ export const NavigationItem = styled.li`
   cursor: pointer;
   color: rgba(255,255,255, 0.9);
   transition: 0.2s;
+  @media (max-width: ${phone}px){
+    padding-left: 25px;
+    font-size: 18px;
+  }
   &:hover{
     color: rgba(255,255,255, 1);
   }

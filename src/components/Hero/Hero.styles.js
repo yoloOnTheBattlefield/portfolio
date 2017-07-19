@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { tablet } from '../theme/sizes';
 
 export const HeroWrapper = styled.div`
   position: relative;
@@ -15,7 +16,7 @@ export const HeroNav = styled.div`
   position: absolute;
   color: rgba(255,255,255,0.8);
   top: 350px;
-  right: -50px;
+  right: -90px;
   z-index: 999;
   transform: rotate(90deg);
   overflow: hidden;
@@ -24,7 +25,6 @@ export const HeroNav = styled.div`
     padding-left: 10px;
     cursor: pointer;
     position: relative;
-
     &:after{
       position: absolute;
       content: '';
@@ -38,6 +38,10 @@ export const HeroNav = styled.div`
     &:hover:after{
       transform: translatex(0%);
     }
+  }
+  @media (max-width: ${tablet}px){
+    display: none;
+  }
 `;
 
 
@@ -60,7 +64,6 @@ export const Header = styled.h1`
 
 export const Border = styled.span`
   position: relative;
-  z-index: 2;
   font-size: 35px;
   padding: 0 5px;
   color: white;
@@ -96,5 +99,8 @@ export const ArrowDown = styled.div`
     left: 0;
     right: 0;
     margin: auto;
+  }
+  @media (max-width: ${tablet}px){
+    height: 75px;
   }
 `;
