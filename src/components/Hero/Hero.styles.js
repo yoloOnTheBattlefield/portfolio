@@ -67,6 +67,7 @@ export const Border = styled.span`
   font-size: 35px;
   padding: 0 5px;
   color: white;
+  z-index: 1;
   &:before{
     content: '';
     position: absolute;
