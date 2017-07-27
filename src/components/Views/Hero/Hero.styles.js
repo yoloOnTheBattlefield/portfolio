@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { tablet } from '../theme/sizes';
+import { phone, tablet } from '../../theme/sizes';
 
 export const HeroWrapper = styled.div`
   position: relative;
@@ -103,5 +103,8 @@ export const ArrowDown = styled.div`
   }
   @media (max-width: ${tablet}px){
     height: 75px;
+  }
+  @media (max-width: ${phone}px){
+    display: none;
   }
 `;

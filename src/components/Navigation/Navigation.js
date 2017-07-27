@@ -41,8 +41,9 @@ export default class Hero extends React.Component {
       <HeadRoom>
         <Navigation>
           <NavigationList>
-            <NavigationItem onClick={(e) => this.handleClick(e)}><Link to='home'>Home</Link></NavigationItem>
+            <NavigationItem><Link to='home'>Home</Link></NavigationItem>
             <NavigationItem><Link to='projects'>Projects</Link></NavigationItem>
+            <NavigationItem><Link to='me'>About Me </Link></NavigationItem>
             <NavigationItem><Link to='contact'>Contact</Link></NavigationItem>
           </NavigationList>
         </Navigation>

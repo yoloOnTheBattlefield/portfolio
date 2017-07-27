@@ -10,7 +10,9 @@ export default class Projects extends React.Component{
   render() {
     return (
       <Element name='projects'>
-        <ProjectsWrapper />
+        <ProjectsWrapper>
+          
+        </ProjectsWrapper>
       </Element>
     );
   }

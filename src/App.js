@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Hero from './components/Hero/Hero';
-import Projects from './components/Projects/Projects';
-import Contact from './components/Contact/Contact';
+import Hero from './components/Views/Hero/Hero';
+import Projects from './components/Views//Projects/Projects';
+import Contact from './components/Views/Contact/Contact';
 import Navigation from './components/Navigation/Navigation';
 import Name from './components/Name/Name';
 
